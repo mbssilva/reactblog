@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and ( max-width: 1024px ) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+// TODO
+:root {
+    --white-1: #F8F8F8;
+    --white-2: #D7D7D7;
+    --gray-1: #BBBBBB;
+    --bgColor: #1A1D23;
+    --highlight: #FF57B2;
+}
+
+body {
+    background-color: var( --bgColor );
+    font-family: 'Inter', sans-serif;
+}

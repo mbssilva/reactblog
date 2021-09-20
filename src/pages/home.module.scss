@@ -1,0 +1,68 @@
+// TODO
+.postInfos {
+
+    & + article { margin-top: 50px; }
+
+    header {
+        margin-bottom: 1.5625rem;
+
+        a {
+            display: block;
+            text-decoration: none;
+
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                filter: brightness(.85);
+            }
+        }
+
+        a {
+            font-weight: 700;
+            font-size: 1.75rem;
+            line-height: 2.125rem;
+            letter-spacing: -0.5px;
+            margin-bottom: .5rem;
+            
+            color: var(--white-1);  
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.125rem;
+            line-height: 1.375rem;
+            color: var(--white-2);
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: flex-start;
+
+        span {
+            display: flex;
+            align-items: center;
+            color: var( --gray-1 );
+
+            & + span { margin-left: 33px; }
+
+            svg { margin-right: 10px; }
+        }
+    }
+}
+.loadMorePosts {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: var(--highlight);
+    background: transparent;
+    border: none;
+    margin-top: 4.0625rem;
+    cursor: pointer;
+
+    transition: all .2s;
+
+    &:hover {
+        filter: brightness(.8);
+    }
+}
